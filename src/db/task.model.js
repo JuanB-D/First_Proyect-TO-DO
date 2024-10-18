@@ -9,7 +9,7 @@ const TaskModel = async (params) => {
         const newTask = {
             id: uuidv4(),
             title: params.title,
-            desctiption: params.desctiption,
+            description: params.desctiption,
             status: params.status,
             createAt: new Date(),
             dueDate: params.dueDate,
